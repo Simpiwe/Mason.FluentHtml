@@ -5,6 +5,12 @@ VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentHtml", "src\FluentHtml\FluentHtml.csproj", "{F7254C4F-2C94-4A0E-A128-DD656527E3A9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CA7391E9-2E20-4B60-819F-BB3ECE86B328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentHtml.Tests", "tests\FluentHtml.Tests\FluentHtml.Tests.csproj", "{6B94A7F6-9D18-48B3-BF99-5D202E88DB33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{49F09116-412D-45BA-8000-54CB974B5473}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,17 @@ Global
 		{F7254C4F-2C94-4A0E-A128-DD656527E3A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7254C4F-2C94-4A0E-A128-DD656527E3A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7254C4F-2C94-4A0E-A128-DD656527E3A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B94A7F6-9D18-48B3-BF99-5D202E88DB33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B94A7F6-9D18-48B3-BF99-5D202E88DB33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B94A7F6-9D18-48B3-BF99-5D202E88DB33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B94A7F6-9D18-48B3-BF99-5D202E88DB33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7254C4F-2C94-4A0E-A128-DD656527E3A9} = {CA7391E9-2E20-4B60-819F-BB3ECE86B328}
+		{6B94A7F6-9D18-48B3-BF99-5D202E88DB33} = {49F09116-412D-45BA-8000-54CB974B5473}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C7AEE272-E0E6-4536-9DB0-F0A7E7F15A64}
