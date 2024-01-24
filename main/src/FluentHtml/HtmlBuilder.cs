@@ -113,6 +113,17 @@ public class HtmlBuilder(CultureInfo culture)
     }
 
     /// <summary>
+    /// Removes all previously added html. 
+    /// </summary>
+    /// <returns></returns>
+    public HtmlBuilder Clear()
+    {
+        _sb.Clear();
+
+        return this;
+    }
+
+    /// <summary>
     /// Writes the html to a string instance.
     /// </summary>
     /// <returns></returns>
