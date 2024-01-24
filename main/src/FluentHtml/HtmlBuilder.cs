@@ -101,13 +101,19 @@ public class HtmlBuilder(CultureInfo culture)
     }
 
     /// <summary>
-    /// Adds content to the html. This can be text or raw html.
+    /// Adds content to the html.  This can be text or raw html. If this is html, <paramref name="encode"/> should be false.
     /// </summary>
-    /// <param name="content"></param>
+    /// <param name="content">The content to add.</param>
+    /// <param name="encode">Specifies whether the content should be encoded before being added to the html.</param>
     /// <returns></returns>
-    public HtmlBuilder Content(string content)
+    public HtmlBuilder Content(string content, bool encode = true)
     {
-        _sb.Append(WebUtility.HtmlEncode(content));
+        if (encode)
+        {
+            content = WebUtility.HtmlEncode(content);
+        }
+
+        _sb.Append(content);
 
         return this;
     }
