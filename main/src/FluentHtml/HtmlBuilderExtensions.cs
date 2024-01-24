@@ -5,7 +5,7 @@ namespace FluentHtml;
 public static class HtmlBuilderExtensions
 {
     /// <summary>
-    /// A convenience method for an element with the tag 'a'.
+    /// A convenience method for creating an element with the tag 'a'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -23,7 +23,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'a'.
+    /// A convenience method for creating an element with the tag 'a'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -40,7 +40,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'abbr'.
+    /// A convenience method for creating an element with the tag 'abbr'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -58,7 +58,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'abbr'.
+    /// A convenience method for creating an element with the tag 'abbr'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -75,7 +75,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'address'.
+    /// A convenience method for creating an element with the tag 'address'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -93,7 +93,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'address'.
+    /// A convenience method for creating an element with the tag 'address'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -110,7 +110,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'article'.
+    /// A convenience method for creating an element with the tag 'article'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -128,7 +128,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'article'.
+    /// A convenience method for creating an element with the tag 'article'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -145,7 +145,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'aside'.
+    /// A convenience method for creating an element with the tag 'aside'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -163,7 +163,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'aside'.
+    /// A convenience method for creating an element with the tag 'aside'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -180,7 +180,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'b'.
+    /// A convenience method for creating an element with the tag 'b'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -198,7 +198,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'b'.
+    /// A convenience method for creating an element with the tag 'b'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -215,7 +215,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'blockquote'.
+    /// A convenience method for creating an element with the tag 'blockquote'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -233,7 +233,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'blockquote'.
+    /// A convenience method for creating an element with the tag 'blockquote'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -250,7 +250,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'body'.
+    /// A convenience method for creating an element with the tag 'body'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -268,7 +268,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'body'.
+    /// A convenience method for creating an element with the tag 'body'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -285,7 +285,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'br'.
+    /// A convenience method for creating an element with the tag 'br'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -302,7 +302,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'button'.
+    /// A convenience method for creating an element with the tag 'button'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -320,7 +320,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'button'.
+    /// A convenience method for creating an element with the tag 'button'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -337,7 +337,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'canvas'.
+    /// A convenience method for creating an element with the tag 'canvas'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -355,7 +355,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'canvas'.
+    /// A convenience method for creating an element with the tag 'canvas'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -372,7 +372,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'caption'.
+    /// A convenience method for creating an element with the tag 'caption'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -390,7 +390,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'caption'.
+    /// A convenience method for creating an element with the tag 'caption'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -407,7 +407,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'cite'.
+    /// A convenience method for creating an element with the tag 'cite'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -425,7 +425,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'cite'.
+    /// A convenience method for creating an element with the tag 'cite'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -442,7 +442,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'code'.
+    /// A convenience method for creating an element with the tag 'code'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -460,7 +460,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'code'.
+    /// A convenience method for creating an element with the tag 'code'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -477,7 +477,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'col'.
+    /// A convenience method for creating an element with the tag 'col'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -494,7 +494,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'colgroup'.
+    /// A convenience method for creating an element with the tag 'colgroup'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -512,7 +512,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'colgroup'.
+    /// A convenience method for creating an element with the tag 'colgroup'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -529,7 +529,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'dd'.
+    /// A convenience method for creating an element with the tag 'dd'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -547,7 +547,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'dd'.
+    /// A convenience method for creating an element with the tag 'dd'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -564,7 +564,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'del'.
+    /// A convenience method for creating an element with the tag 'del'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -582,7 +582,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'del'.
+    /// A convenience method for creating an element with the tag 'del'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -599,7 +599,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'details'.
+    /// A convenience method for creating an element with the tag 'details'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -617,7 +617,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'details'.
+    /// A convenience method for creating an element with the tag 'details'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -634,7 +634,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'dfn'.
+    /// A convenience method for creating an element with the tag 'dfn'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -652,7 +652,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'dfn'.
+    /// A convenience method for creating an element with the tag 'dfn'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -669,7 +669,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'div'.
+    /// A convenience method for creating an element with the tag 'div'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -687,7 +687,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'div'.
+    /// A convenience method for creating an element with the tag 'div'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -704,7 +704,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'dl'.
+    /// A convenience method for creating an element with the tag 'dl'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -722,7 +722,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'dl'.
+    /// A convenience method for creating an element with the tag 'dl'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -739,7 +739,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'dt'.
+    /// A convenience method for creating an element with the tag 'dt'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -757,7 +757,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'dt'.
+    /// A convenience method for creating an element with the tag 'dt'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -774,7 +774,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'em'.
+    /// A convenience method for creating an element with the tag 'em'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -792,7 +792,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'em'.
+    /// A convenience method for creating an element with the tag 'em'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -809,7 +809,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'fieldset'.
+    /// A convenience method for creating an element with the tag 'fieldset'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -827,7 +827,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'fieldset'.
+    /// A convenience method for creating an element with the tag 'fieldset'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -844,7 +844,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'figcaption'.
+    /// A convenience method for creating an element with the tag 'figcaption'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -862,7 +862,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'figcaption'.
+    /// A convenience method for creating an element with the tag 'figcaption'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -879,7 +879,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'figure'.
+    /// A convenience method for creating an element with the tag 'figure'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -897,7 +897,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'figure'.
+    /// A convenience method for creating an element with the tag 'figure'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -914,7 +914,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'footer'.
+    /// A convenience method for creating an element with the tag 'footer'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -932,7 +932,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'footer'.
+    /// A convenience method for creating an element with the tag 'footer'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -949,7 +949,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'form'.
+    /// A convenience method for creating an element with the tag 'form'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -967,7 +967,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'form'.
+    /// A convenience method for creating an element with the tag 'form'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -984,7 +984,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'h1'.
+    /// A convenience method for creating an element with the tag 'h1'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1002,7 +1002,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'h1'.
+    /// A convenience method for creating an element with the tag 'h1'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1019,7 +1019,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'h2'.
+    /// A convenience method for creating an element with the tag 'h2'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1037,7 +1037,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'h2'.
+    /// A convenience method for creating an element with the tag 'h2'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1054,7 +1054,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'h3'.
+    /// A convenience method for creating an element with the tag 'h3'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1072,7 +1072,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'h3'.
+    /// A convenience method for creating an element with the tag 'h3'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1089,7 +1089,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'h4'.
+    /// A convenience method for creating an element with the tag 'h4'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1107,7 +1107,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'h4'.
+    /// A convenience method for creating an element with the tag 'h4'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1124,7 +1124,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'h5'.
+    /// A convenience method for creating an element with the tag 'h5'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1142,7 +1142,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'h5'.
+    /// A convenience method for creating an element with the tag 'h5'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1159,7 +1159,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'h6'.
+    /// A convenience method for creating an element with the tag 'h6'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1177,7 +1177,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'h6'.
+    /// A convenience method for creating an element with the tag 'h6'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1194,7 +1194,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'head'.
+    /// A convenience method for creating an element with the tag 'head'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1212,7 +1212,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'head'.
+    /// A convenience method for creating an element with the tag 'head'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1229,7 +1229,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'header'.
+    /// A convenience method for creating an element with the tag 'header'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1247,7 +1247,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'header'.
+    /// A convenience method for creating an element with the tag 'header'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1264,7 +1264,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'hgroup'.
+    /// A convenience method for creating an element with the tag 'hgroup'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1282,7 +1282,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'hgroup'.
+    /// A convenience method for creating an element with the tag 'hgroup'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1299,7 +1299,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'hr'.
+    /// A convenience method for creating an element with the tag 'hr'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1316,7 +1316,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'html'.
+    /// A convenience method for creating an element with the tag 'html'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1334,7 +1334,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'html'.
+    /// A convenience method for creating an element with the tag 'html'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1351,7 +1351,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'i'.
+    /// A convenience method for creating an element with the tag 'i'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1369,7 +1369,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'i'.
+    /// A convenience method for creating an element with the tag 'i'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1386,7 +1386,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'iframe'.
+    /// A convenience method for creating an element with the tag 'iframe'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1404,7 +1404,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'iframe'.
+    /// A convenience method for creating an element with the tag 'iframe'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1421,7 +1421,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'img'.
+    /// A convenience method for creating an element with the tag 'img'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1438,7 +1438,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'input'.
+    /// A convenience method for creating an element with the tag 'input'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1455,7 +1455,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'ins'.
+    /// A convenience method for creating an element with the tag 'ins'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1473,7 +1473,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'ins'.
+    /// A convenience method for creating an element with the tag 'ins'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1490,7 +1490,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'kbd'.
+    /// A convenience method for creating an element with the tag 'kbd'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1508,7 +1508,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'kbd'.
+    /// A convenience method for creating an element with the tag 'kbd'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1525,7 +1525,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'label'.
+    /// A convenience method for creating an element with the tag 'label'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1543,7 +1543,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'label'.
+    /// A convenience method for creating an element with the tag 'label'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1560,7 +1560,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'legend'.
+    /// A convenience method for creating an element with the tag 'legend'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1578,7 +1578,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'legend'.
+    /// A convenience method for creating an element with the tag 'legend'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1595,7 +1595,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'li'.
+    /// A convenience method for creating an element with the tag 'li'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1613,7 +1613,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'li'.
+    /// A convenience method for creating an element with the tag 'li'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1630,7 +1630,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'link'.
+    /// A convenience method for creating an element with the tag 'link'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1647,7 +1647,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'main'.
+    /// A convenience method for creating an element with the tag 'main'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1665,7 +1665,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'main'.
+    /// A convenience method for creating an element with the tag 'main'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1682,7 +1682,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'map'.
+    /// A convenience method for creating an element with the tag 'map'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1700,7 +1700,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'map'.
+    /// A convenience method for creating an element with the tag 'map'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1717,7 +1717,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'meta'.
+    /// A convenience method for creating an element with the tag 'meta'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1734,7 +1734,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'meter'.
+    /// A convenience method for creating an element with the tag 'meter'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1752,7 +1752,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'meter'.
+    /// A convenience method for creating an element with the tag 'meter'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1769,7 +1769,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'nav'.
+    /// A convenience method for creating an element with the tag 'nav'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1787,7 +1787,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'nav'.
+    /// A convenience method for creating an element with the tag 'nav'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1804,7 +1804,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'noscript'.
+    /// A convenience method for creating an element with the tag 'noscript'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1822,7 +1822,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'noscript'.
+    /// A convenience method for creating an element with the tag 'noscript'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1839,7 +1839,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'ol'.
+    /// A convenience method for creating an element with the tag 'ol'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1857,7 +1857,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'ol'.
+    /// A convenience method for creating an element with the tag 'ol'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1874,7 +1874,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'optgroup'.
+    /// A convenience method for creating an element with the tag 'optgroup'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1892,7 +1892,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'optgroup'.
+    /// A convenience method for creating an element with the tag 'optgroup'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1909,7 +1909,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'option'.
+    /// A convenience method for creating an element with the tag 'option'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1927,7 +1927,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'option'.
+    /// A convenience method for creating an element with the tag 'option'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1944,7 +1944,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'output'.
+    /// A convenience method for creating an element with the tag 'output'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1962,7 +1962,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'output'.
+    /// A convenience method for creating an element with the tag 'output'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1979,7 +1979,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'p'.
+    /// A convenience method for creating an element with the tag 'p'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -1997,7 +1997,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'p'.
+    /// A convenience method for creating an element with the tag 'p'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2014,7 +2014,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'param'.
+    /// A convenience method for creating an element with the tag 'param'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2031,7 +2031,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'picture'.
+    /// A convenience method for creating an element with the tag 'picture'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2049,7 +2049,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'picture'.
+    /// A convenience method for creating an element with the tag 'picture'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2066,7 +2066,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'pre'.
+    /// A convenience method for creating an element with the tag 'pre'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2084,7 +2084,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'pre'.
+    /// A convenience method for creating an element with the tag 'pre'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2101,7 +2101,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'progress'.
+    /// A convenience method for creating an element with the tag 'progress'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2119,7 +2119,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'progress'.
+    /// A convenience method for creating an element with the tag 'progress'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2136,7 +2136,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'q'.
+    /// A convenience method for creating an element with the tag 'q'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2154,7 +2154,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'q'.
+    /// A convenience method for creating an element with the tag 'q'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2171,7 +2171,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'rp'.
+    /// A convenience method for creating an element with the tag 'rp'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2189,7 +2189,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'rp'.
+    /// A convenience method for creating an element with the tag 'rp'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2206,7 +2206,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'rt'.
+    /// A convenience method for creating an element with the tag 'rt'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2224,7 +2224,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'rt'.
+    /// A convenience method for creating an element with the tag 'rt'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2241,7 +2241,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'ruby'.
+    /// A convenience method for creating an element with the tag 'ruby'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2259,7 +2259,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'ruby'.
+    /// A convenience method for creating an element with the tag 'ruby'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2276,7 +2276,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 's'.
+    /// A convenience method for creating an element with the tag 's'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2294,7 +2294,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 's'.
+    /// A convenience method for creating an element with the tag 's'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2311,7 +2311,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'samp'.
+    /// A convenience method for creating an element with the tag 'samp'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2329,7 +2329,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'samp'.
+    /// A convenience method for creating an element with the tag 'samp'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2346,7 +2346,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'script'.
+    /// A convenience method for creating an element with the tag 'script'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2364,7 +2364,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'script'.
+    /// A convenience method for creating an element with the tag 'script'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2381,7 +2381,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'section'.
+    /// A convenience method for creating an element with the tag 'section'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2399,7 +2399,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'section'.
+    /// A convenience method for creating an element with the tag 'section'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2416,7 +2416,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'select'.
+    /// A convenience method for creating an element with the tag 'select'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2434,7 +2434,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'select'.
+    /// A convenience method for creating an element with the tag 'select'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2451,7 +2451,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'small'.
+    /// A convenience method for creating an element with the tag 'small'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2469,7 +2469,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'small'.
+    /// A convenience method for creating an element with the tag 'small'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2486,7 +2486,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'source'.
+    /// A convenience method for creating an element with the tag 'source'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2503,7 +2503,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'span'.
+    /// A convenience method for creating an element with the tag 'span'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2521,7 +2521,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'span'.
+    /// A convenience method for creating an element with the tag 'span'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2538,7 +2538,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'strong'.
+    /// A convenience method for creating an element with the tag 'strong'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2556,7 +2556,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'strong'.
+    /// A convenience method for creating an element with the tag 'strong'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2573,7 +2573,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'style'.
+    /// A convenience method for creating an element with the tag 'style'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2591,7 +2591,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'style'.
+    /// A convenience method for creating an element with the tag 'style'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2608,7 +2608,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'sub'.
+    /// A convenience method for creating an element with the tag 'sub'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2626,7 +2626,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'sub'.
+    /// A convenience method for creating an element with the tag 'sub'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2643,7 +2643,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'summary'.
+    /// A convenience method for creating an element with the tag 'summary'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2661,7 +2661,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'summary'.
+    /// A convenience method for creating an element with the tag 'summary'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2678,7 +2678,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'sup'.
+    /// A convenience method for creating an element with the tag 'sup'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2696,7 +2696,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'sup'.
+    /// A convenience method for creating an element with the tag 'sup'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2713,7 +2713,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'svg'.
+    /// A convenience method for creating an element with the tag 'svg'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2731,7 +2731,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'svg'.
+    /// A convenience method for creating an element with the tag 'svg'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2748,7 +2748,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'table'.
+    /// A convenience method for creating an element with the tag 'table'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2766,7 +2766,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'table'.
+    /// A convenience method for creating an element with the tag 'table'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2783,7 +2783,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'tbody'.
+    /// A convenience method for creating an element with the tag 'tbody'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2801,7 +2801,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'tbody'.
+    /// A convenience method for creating an element with the tag 'tbody'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2818,7 +2818,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'td'.
+    /// A convenience method for creating an element with the tag 'td'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2836,7 +2836,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'td'.
+    /// A convenience method for creating an element with the tag 'td'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2853,7 +2853,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'template'.
+    /// A convenience method for creating an element with the tag 'template'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2871,7 +2871,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'template'.
+    /// A convenience method for creating an element with the tag 'template'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2888,7 +2888,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'textarea'.
+    /// A convenience method for creating an element with the tag 'textarea'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2906,7 +2906,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'textarea'.
+    /// A convenience method for creating an element with the tag 'textarea'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2923,7 +2923,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'tfoot'.
+    /// A convenience method for creating an element with the tag 'tfoot'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2941,7 +2941,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'tfoot'.
+    /// A convenience method for creating an element with the tag 'tfoot'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2958,7 +2958,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'th'.
+    /// A convenience method for creating an element with the tag 'th'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2976,7 +2976,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'th'.
+    /// A convenience method for creating an element with the tag 'th'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -2993,7 +2993,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'thead'.
+    /// A convenience method for creating an element with the tag 'thead'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -3011,7 +3011,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'thead'.
+    /// A convenience method for creating an element with the tag 'thead'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -3028,7 +3028,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'time'.
+    /// A convenience method for creating an element with the tag 'time'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -3046,7 +3046,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'time'.
+    /// A convenience method for creating an element with the tag 'time'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -3063,7 +3063,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'title'.
+    /// A convenience method for creating an element with the tag 'title'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -3081,7 +3081,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'title'.
+    /// A convenience method for creating an element with the tag 'title'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -3098,7 +3098,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'tr'.
+    /// A convenience method for creating an element with the tag 'tr'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -3116,7 +3116,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'tr'.
+    /// A convenience method for creating an element with the tag 'tr'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -3133,7 +3133,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'track'.
+    /// A convenience method for creating an element with the tag 'track'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -3150,7 +3150,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'u'.
+    /// A convenience method for creating an element with the tag 'u'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -3168,7 +3168,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'u'.
+    /// A convenience method for creating an element with the tag 'u'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -3185,7 +3185,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'ul'.
+    /// A convenience method for creating an element with the tag 'ul'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -3203,7 +3203,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'ul'.
+    /// A convenience method for creating an element with the tag 'ul'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -3220,7 +3220,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'var'.
+    /// A convenience method for creating an element with the tag 'var'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -3238,7 +3238,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'var'.
+    /// A convenience method for creating an element with the tag 'var'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -3255,7 +3255,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'video'.
+    /// A convenience method for creating an element with the tag 'video'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -3273,7 +3273,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'video'.
+    /// A convenience method for creating an element with the tag 'video'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
@@ -3290,7 +3290,7 @@ public static class HtmlBuilderExtensions
     }
 
     /// <summary>
-    /// A convenience method for an element with the tag 'wbr'.
+    /// A convenience method for creating an element with the tag 'wbr'.
     /// <code>
     /// <![CDATA[
     /// // Shorthand for:
