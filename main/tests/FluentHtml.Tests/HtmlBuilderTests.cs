@@ -18,7 +18,7 @@ namespace FluentHtml.Tests
         {
             //Arrange
             HtmlBuilder sut = new();
-            HtmlDocument document = new HtmlDocument();
+            HtmlDocument document = new();
 
             //Act
             string html = sut.Element(tag).ToString();
@@ -40,7 +40,7 @@ namespace FluentHtml.Tests
         {
             //Arrange
             HtmlBuilder sut = new();
-            HtmlDocument document = new HtmlDocument();
+            HtmlDocument document = new();
 
             //Act
             string html = sut.Element(tag).ToString();
@@ -64,7 +64,7 @@ namespace FluentHtml.Tests
         {
             //Arrange
             HtmlBuilder sut = new();
-            HtmlDocument document = new HtmlDocument();
+            HtmlDocument document = new();
 
             //Act
             string html = sut.InlineElement(tag).ToString();
