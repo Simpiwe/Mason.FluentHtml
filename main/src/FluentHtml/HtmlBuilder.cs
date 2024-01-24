@@ -19,6 +19,18 @@ public class HtmlBuilder(CultureInfo culture)
 
     }
 
+    /// <summary>
+    /// Adds an element to the html.
+    /// <code>
+    /// <![CDATA[
+    /// <tag></tag>
+    /// ]]>
+    /// </code>
+    /// </summary>
+    /// <param name="tag">The name of the tag of the element. e.g. div, table etc.</param>
+    /// <param name="attributes">The html attributes to add to the element.</param>
+    /// <param name="buildContent">A delegate for adding content to the element being added.</param>
+    /// <returns></returns>
     public HtmlBuilder Element(string tag, object? attributes = null, Action<HtmlBuilder>? buildContent = null)
     {
         _sb.Append('<')
@@ -42,6 +54,17 @@ public class HtmlBuilder(CultureInfo culture)
         return this;
     }
 
+    /// <summary>
+    /// Adds an element to the html.
+    /// <code>
+    /// <![CDATA[
+    /// <tag></tag>
+    /// ]]>
+    /// </code>
+    /// </summary>
+    /// <param name="tag">The name of the tag of the element. e.g. div, table etc.</param>
+    /// <param name="buildContent">A delegate for adding content to the element being added.</param>
+    /// <returns></returns>
     public HtmlBuilder Element(string tag, Action<HtmlBuilder> buildContent)
     {
         _ = buildContent ?? throw new ArgumentNullException(nameof(buildContent));
@@ -49,6 +72,17 @@ public class HtmlBuilder(CultureInfo culture)
         return Element(tag, null, buildContent);
     }
 
+    /// <summary>
+    /// Adds a self-clossing element to the html.
+    /// <code>
+    /// <![CDATA[
+    /// <tag/>
+    /// ]]>
+    /// </code>
+    /// </summary>
+    /// <param name="tag">The name of the tag of the element. e.g. img, input etc.</param>
+    /// <param name="attributes">The html attributes to add to the element.</param>
+    /// <returns></returns>
     public HtmlBuilder InlineElement(string tag, object? attributes = null)
     {
         _sb.Append('<')
@@ -66,19 +100,37 @@ public class HtmlBuilder(CultureInfo culture)
         return this;
     }
 
-    public HtmlBuilder Text(string text)
+    /// <summary>
+    /// Adds content to the html. This can be text or raw html.
+    /// </summary>
+    /// <param name="content"></param>
+    /// <returns></returns>
+    public HtmlBuilder Content(string content)
     {
-        _sb.Append(WebUtility.HtmlEncode(text));
+        _sb.Append(WebUtility.HtmlEncode(content));
 
         return this;
     }
 
+    /// <summary>
+    /// Writes the html to a string instance.
+    /// </summary>
+    /// <returns></returns>
     public override string ToString()
     {
         return _sb.ToString();
     }
 
-    public static string ReadAttributes(object? attributes, CultureInfo? culture = null)
+    /// <summary>
+    /// Write the html to a string.
+    /// </summary>
+    /// <returns></returns>
+    public string Build()
+    {
+        return ToString();
+    }
+
+    private static string ReadAttributes(object? attributes, CultureInfo? culture = null)
     {
         if (attributes == null)
         {
