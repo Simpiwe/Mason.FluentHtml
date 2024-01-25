@@ -5,6 +5,12 @@
     <TargetFramework>netstandard2.0</TargetFramework>
 		<LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
+		<PackageId>Mason.FluentHtml</PackageId>
+	  <Version>1</Version>
+	  <Authors>Simpiwe</Authors>
+		<PackageLicenseUrl>https://www.gnu.org/licenses/gpl-3.0.en.html#license-text</PackageLicenseUrl>
+		<PackageProjectUrl>https://github.com/Simpiwe/Mason.FluentHtml</PackageProjectUrl>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
 </Project>
