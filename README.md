@@ -1,10 +1,12 @@
-# FluentHtml
+# Mason.FluentHtml
 
-FluentHtml is a simple, unambitious library for building HTML documents in a fluent manner.
+Mason.FluentHtml is a simple, unambitious library for building HTML documents in a fluent manner.
 
 ## Getting Started
 
 ```
+using FluentHtml;
+
 HtmlBuilder htmlBuilder = new HtmlBuilder();
 
 htmlBuilder.Table(new { @class = "table-primary" }, table =>
@@ -22,22 +24,22 @@ htmlBuilder.Table(new { @class = "table-primary" }, table =>
 string html = htmlBuilder.ToString(); //<table class="table-primary"><tbody><tr><td>Cell 1</td><td>Cell 2</td></tr></tbody></table>
 ```
 
-This example shows how to use FluentHtml to build a basic HTML table. 
+This example shows how to use Mason.FluentHtml to build a basic HTML table. 
 
 ## Features
 
 - **Fluent Interface:** Build HTML documents with a natural and intuitive syntax.
 - **No Dependencies:** The library has no external dependencies and is designed to be lightweight.
-- **Target Framework:** FluentHtml targets .NET Standard 2.0, ensuring compatibility across various platforms.
+- **Target Framework:** Mason.FluentHtml targets .NET Standard 2.0, ensuring compatibility across various platforms.
 
 ## Installation
 
-To install FluentHtml, you can use the following [NuGet](https://www.nuget.org/) command:
+To install Mason.FluentHtml, you can use the following [NuGet](https://www.nuget.org/) command:
 
 ```
-dotnet add package FluentHtml --version 1.0.0
+dotnet add package Mason.FluentHtml --version 1.0.0
 ```
 
 ## License
 
-FluentHtml is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html#license-text).
+Mason.FluentHtml is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html#license-text).
