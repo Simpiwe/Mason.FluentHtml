@@ -156,6 +156,11 @@ public class HtmlBuilder(CultureInfo culture)
 
         culture ??= CultureInfo.InvariantCulture;
 
+        if (attributes is string s)
+        {
+            return s;
+        }
+
         if (attributes is IDictionary dictionary)
         {
             return ReadAttributes(dictionary, culture);
