@@ -73,7 +73,7 @@ public class HtmlBuilder(CultureInfo culture)
     }
 
     /// <summary>
-    /// Adds a self-clossing element to the html.
+    /// Adds a self-closing element to the html.
     /// <code>
     /// <![CDATA[
     /// <tag/>
