@@ -11,8 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentHtml.Tests", "tests\F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{49F09116-412D-45BA-8000-54CB974B5473}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{550978DA-E1C1-4941-AB79-34516B1241E2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{550978DA-E1C1-4941-AB79-34516B1241E2}"
 	ProjectSection(SolutionItems) = preProject
+		..\logo.png = ..\logo.png
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
