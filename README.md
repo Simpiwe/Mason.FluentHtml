@@ -37,7 +37,7 @@ This example shows how to use Mason.FluentHtml to build a basic HTML table.
 To install Mason.FluentHtml, you can use the following [NuGet](https://www.nuget.org/) command:
 
 ```
-dotnet add package Mason.FluentHtml --version 1.0.0
+dotnet add package Mason.FluentHtml
 ```
 
 ## License
