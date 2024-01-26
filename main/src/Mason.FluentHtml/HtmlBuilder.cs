@@ -26,16 +26,9 @@ public class HtmlBuilder(HtmlBuilderOptions? options = null)
     public HtmlBuilder Element(string tag, object? attributes = null, Action<HtmlBuilder>? buildContent = null)
     {
         _sb.Append('<')
-            .Append(tag);
-
-        string? attributesString = HtmlAttributesHelper.ReadAttributes(attributes, _options.Culture);
-        if (!string.IsNullOrEmpty(attributesString))
-        {
-            _sb.Append(' ')
-                .Append(attributesString);
-        }
-
-        _sb.Append('>');
+            .Append(tag)
+            .Append(HtmlAttributesHelper.ReadAttributes(attributes, _options.Culture))
+            .Append('>');
 
         buildContent?.Invoke(this);
 
@@ -78,16 +71,9 @@ public class HtmlBuilder(HtmlBuilderOptions? options = null)
     public HtmlBuilder InlineElement(string tag, object? attributes = null)
     {
         _sb.Append('<')
-            .Append(tag);
-
-        string? attributesString = HtmlAttributesHelper.ReadAttributes(attributes, _options.Culture);
-        if (!string.IsNullOrEmpty(attributesString))
-        {
-            _sb.Append(' ')
-                .Append(attributesString);
-        }
-
-        _sb.Append("/>");
+            .Append(tag)
+            .Append(HtmlAttributesHelper.ReadAttributes(attributes, _options.Culture))
+            .Append("/>");
 
         return this;
     }
