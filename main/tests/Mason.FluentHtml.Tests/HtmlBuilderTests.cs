@@ -1,7 +1,7 @@
 using HtmlAgilityPack;
 using System.Text.RegularExpressions;
 
-namespace FluentHtml.Tests
+namespace Mason.FluentHtml.Tests
 {
     public partial class HtmlBuilderTests
     {

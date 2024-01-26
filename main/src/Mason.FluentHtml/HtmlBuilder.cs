@@ -5,7 +5,7 @@ using System.Net;
 using System.Reflection;
 using System.Text;
 
-namespace FluentHtml;
+namespace Mason.FluentHtml;
 
 public class HtmlBuilder(CultureInfo culture)
 {

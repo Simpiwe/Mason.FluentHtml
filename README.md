@@ -5,7 +5,7 @@ Mason.FluentHtml is a simple, unambitious library for building HTML documents in
 ## Getting Started
 
 ```
-using FluentHtml;
+using Mason.FluentHtml;
 
 HtmlBuilder htmlBuilder = new HtmlBuilder();
 
