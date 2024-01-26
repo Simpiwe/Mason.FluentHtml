@@ -6,7 +6,7 @@
 		<LangVersion>12.0</LangVersion>
     <Nullable>enable</Nullable>
 		<PackageId>Mason.FluentHtml</PackageId>
-	  <Version>2.0.1</Version>
+	  <Version>3.0.1</Version>
 	  <Authors>Simpiwe</Authors>
 		<PackageProjectUrl>https://github.com/Simpiwe/Mason.FluentHtml</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/Simpiwe/Mason.FluentHtml</RepositoryUrl>
