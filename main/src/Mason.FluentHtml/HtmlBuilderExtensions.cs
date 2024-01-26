@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FluentHtml;
+namespace Mason.FluentHtml;
 
 public static class HtmlBuilderExtensions
 {

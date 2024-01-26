@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\FluentHtml\FluentHtml.csproj" />
+    <ProjectReference Include="..\..\src\Mason.FluentHtml\Mason.FluentHtml.csproj" />
   </ItemGroup>
 
 </Project>
